@@ -1,0 +1,16 @@
+{
+     "name": "node-backend",
+     "version": "0.0.1",
+     "main": "app.js",
+     "dependencies": {
+          "express" : "",
+          "mongoose" : "",
+          "csprng" : "",
+          "connect": "",
+          "nodemailer":"",
+          "crypto":"",
+          "gravatar":"",
+		  "morgan":"",
+		  "body-parser":""
+     }
+}
