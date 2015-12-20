@@ -12,5 +12,6 @@
           "gravatar":"",
 		  "morgan":"",
 		  "body-parser":""
-     }
+     },
+	 "scripts": { "start": "node server.js" }
 }
