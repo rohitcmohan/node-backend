@@ -13,5 +13,5 @@
 		  "morgan":"",
 		  "body-parser":""
      },
-	 "scripts": { "start": "node server.js" }
+	 "scripts": { "start": "node app.js" }
 }
