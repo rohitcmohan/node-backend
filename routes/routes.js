@@ -22,9 +22,10 @@ module.exports = function(app) {
 
      app.post('/register',function(req,res){
           var email = req.body.email;
-               var password = req.body.password;
+          var password = req.body.password;
+          var ieeeNum = req.body.ieeeNum;     
 
-          register.register(email,password,function (found) {
+          register.register(email,password,ieeeNum,function (found) {
                console.log(found);
                res.json(found);
      });
